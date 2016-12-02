@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Where Am I?</string>
+    <string name="impostazioni">Impostazioni</string>
+    <string name="settings_server_config">Imposta IP e Porta del Server</string>
+    <string name="save">Salva</string>
+    <string name="cancel">Annulla</string>
+    <string name="ip_server">IP Server</string>
+    <string name="porta">Porta</string>
+    <string name="scansione">Scansione in corso..</string>
+    <string name="invio">Invio al server..</string>
+    <string name="localizza">Localizza</string>
+
+    <string name="risultato_default">Risultato:</string>
+    <string name="risultato">Risultato: %s</string>
+    <string name="aplist">Lista di Access Point</string>
+</resources>

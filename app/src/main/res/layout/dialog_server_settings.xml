@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/spacing_normal">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="@string/ip_server"
+            android:layout_weight="2"
+            android:id="@+id/serverIp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLength="16"/>
+        <EditText
+            android:hint="@string/porta"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/serverPort"
+            android:maxLength="5"
+            android:inputType="number"/>
+    </LinearLayout>
+</RelativeLayout>
